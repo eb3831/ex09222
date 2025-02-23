@@ -17,10 +17,6 @@ public class Credits extends AppCompatActivity
 
     Intent pi;
 
-    /**
-     * Called when the activity is first created.
-     * @param savedInstanceState The saved instance state bundle.
-     */
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {

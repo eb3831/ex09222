@@ -19,21 +19,6 @@
             android:layout_height="0dp"
             android:layout_weight="88" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="5" />
-
-        <Button
-            android:layout_width="128dp"
-            android:layout_height="0dp"
-            android:layout_gravity="bottom|left"
-            android:layout_weight="7"
-            android:backgroundTint="#FF8A80"
-            android:gravity="center"
-            android:onClick="getSeriesData"
-            android:text="Data Enter"
-            app:iconTint="#FF8A80" />
     </LinearLayout>
 
     <LinearLayout
@@ -183,6 +168,17 @@
         <Space
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="52" />
+            android:layout_weight="42" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="bottom|left"
+            android:layout_weight="10"
+            android:backgroundTint="#FF8A80"
+            android:gravity="center"
+            android:onClick="getSeriesData"
+            android:text="Data Enter"
+            app:iconTint="#FF8A80" />
     </LinearLayout>
 </LinearLayout>

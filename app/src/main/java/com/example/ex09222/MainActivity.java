@@ -103,6 +103,7 @@ public class MainActivity extends AppCompatActivity implements View.OnCreateCont
         firstValueStr = diffStr = "";
         firstValue = diff = seriesSum = 0;
         seriesArr = new Double[20];
+        disArr = new String[20];
 
         tvDorQ = findViewById(R.id.tvDorQ);
         tvA1 = findViewById(R.id.tvA1);
