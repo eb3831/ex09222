@@ -141,9 +141,13 @@ public class MainActivity extends AppCompatActivity implements View.OnCreateCont
         adb.setNegativeButton("Cancel", onDialogBtnClick);
 
         if(seriesType == 0)
+        {
             swAD.setChecked(false);
+        }
         else
+        {
             swAD.setChecked(true);
+        }
 
         dgFirstValueEt.setText(firstValueStr);
         dgDiffEt.setText(diffStr);
